@@ -1,12 +1,54 @@
 /* 
 //Eldy Deines
 //Memory Game (CSS)
-//March 16 */
+//April 8  
+//Second version includes more styling
+*/
+
+
+body {
+  margin: auto;
+  padding: 25px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'RocknRoll One', sans-serif;
+  font-size: 64px;
+  margin: 15px 0px;
+
+}
 
 #game div {
-  border: 1px solid black;
+  border: 5px ridge black;
+  border-radius: 10px;
+  background-image: url("https://images.unsplash.com/photo-1545231097-cbd796f1d95f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2186&q=80");
+  background-size: cover;
   width: 15%;
-  height: 200px;
+  height: 100px;
   margin: 10px;
   display: inline-block;
+}
+
+h2 {
+  border: 5px ridge black;
+  border-radius: 10px;
+  display: inline-block;
+  background-color: #eff53b;
+  padding: 15px;
+  line-height: 2em;
+  margin: 10px;
+}
+
+p{
+  font-size: 18px;
+}
+
+button {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 10px;
+  border: 5px ridge black;
+  background-color: #4bd670
 }

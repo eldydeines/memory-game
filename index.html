@@ -1,19 +1,35 @@
 <!-- 
 //Eldy Deines
 //Memory Game (HTML)
-//March 16 -->
+//April 8
+//Added more elements to this version
+//i.e. start and reset
+-->
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Memory Game!</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <h1>Memory Game!</h1>
-    <div id="game">
-    </div>
-    <script src="script.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Game!</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=RocknRoll+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <h1>Memory Game!</h1>
+  <h2>
+    <p>Score: <span id="guess">0</span></p>
+  </h2>
+  <p>
+    <button id="start">Start Game</button>
+    <button id="reset">Reset Game</button>
+  </p>
+  <div id="game">
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
